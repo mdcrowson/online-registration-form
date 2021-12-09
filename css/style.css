@@ -1,0 +1,37 @@
+* {
+    font-family: 'Merriweather', serif;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+
+header {
+    background: #153453;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* ---------- Text Styles ---------- */
+header h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h2, legend {
+    font-size: 2em;
+    font-weight: bold;
+    color: #153453;
+}
+
+p {
+    color: #aaafb4;
+}
+
+footer p {
+    font-style: italic;
+    font-size: .85em;
+}
