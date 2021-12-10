@@ -20,7 +20,7 @@ main {
 }
 
 .wrapper {
-    max-width: 1020px;
+    max-width: 700px;
     margin: 0 auto;
     margin-bottom: 200px;
 }
@@ -176,5 +176,13 @@ hr:first-child {
 /* ---------- Media Queries ---------- */
 
 @media (min-width: 768px) {
+    label {
+        display: inline-block;
+    }
 
+    input:not([type='checkbox'],[type='radio']),
+    select,
+    textarea {
+        width: 75%;
+    }
 }
